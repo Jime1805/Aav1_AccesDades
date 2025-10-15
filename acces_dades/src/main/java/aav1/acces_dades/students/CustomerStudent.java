@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 
 @RestController
+@RequestMapping("/api")
 public class CustomerStudent {
 
     @GetMapping("/student")
