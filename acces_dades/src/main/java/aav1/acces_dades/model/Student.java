@@ -1,23 +1,23 @@
 package aav1.acces_dades.model;
 
-public abstract class Student {
+public class Student {
     private Long id;
     private String nom;
     private String cognom;
     private int age;
     private String cicle;
-    private int any;  
+    private int anyo;  
 
     public Student() {
     }
 
-    public Student(Long id, String nom, String cognom, int age, String cicle, int any) {
+    public Student(Long id, String nom, String cognom, int age, String cicle, int anyo) {
         this.id = id;
         this.nom = nom;
         this.cognom = cognom;
         this.age = age;
         this.cicle = cicle;
-        this.any = any;
+        this.anyo = anyo;
     }
 
     public Long getId() {
@@ -51,10 +51,10 @@ public abstract class Student {
         this.cicle = cicle;
     }
     public int getAny() {
-        return any;
+        return anyo;
     }
-    public void setAny(int any) {
-        this.any = any;
+    public void setAny(int anyo) {
+        this.anyo = anyo;
     }
 
     
